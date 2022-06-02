@@ -17,31 +17,31 @@
 
             ipt()
             def cmdprc():
-                if x == "help";{
+                if x == "help":{
                     print("help => display this\nabout => tells information about arp001-client\necho => prints something in the terminal, syntax is echo after typing it will ask you what to print\nis-this-scam => irritates you with a popup\nexit => exit the terminal")
                     ipt()
                     cmdprc()
                 }
-                elif x == "about";{
+                elif x == "about":{
                     print("arp001-client is a good organization which creates services to use for free")
                     ipt()
                     cmdprc()
                 }
-                elif x == "echo";{
+                elif x == "echo":{
                     input("ehat to print")
                     ipt()
                     cmdprc()
                 }
-                elif x == "is-this-scam";{
+                elif x == "is-this-scam":{
                     justscam()
                     ipt()
                     cmdprc()
                 }
-                elif x == "exit";{
+                elif x == "exit":{
                     print("exiting")
                     exit()
                 }
-                else;{
+                else:{
                     print("error command '" + x + "' unknown")
                     ipt()
                     cmdprc()
