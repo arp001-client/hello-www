@@ -13,41 +13,41 @@
         <py-script>
             print("hello welcome to web terminal")
             x = 0
-            def ipt(x):
+            def ipt():
                 x = input("((shell))>>")
 
-            ipt()
+            ipt();
             def cmdprc():
                 if x == "help":{
-                    print("help => display this\nabout => tells information about arp001-client\necho => prints something in the terminal, syntax is echo after typing it will ask you what to print\nis-this-scam => irritates you with a popup\nexit => exit the terminal"),
-                    ipt(),
-                    cmdprc()
+                    print("help => display this\nabout => tells information about arp001-client\necho => prints something in the terminal, syntax is echo after typing it will ask you what to print\nis-this-scam => irritates you with a popup\nexit => exit the terminal");
+                    ipt();
+                    cmdprc();
                 }
                 elif x == "about":{
-                    print("arp001-client is a good organization which creates services to use for free"),
-                    ipt(),
-                    cmdprc(),
+                    print("arp001-client is a good organization which creates services to use for free");
+                    ipt();
+                    cmdprc();
                 }
                 elif x == "echo":{
-                    input("ehat to print"),
-                    ipt(),
-                    cmdprc(),
+                    input("ehat to print");
+                    ipt();
+                    cmdprc();
                 }
                 elif x == "is-this-scam":{
-                    justscam(),
-                    ipt(),
-                    cmdprc(),
+                    justscam();
+                    ipt();
+                    cmdprc();
                 }
                 elif x == "exit":{
-                    print("exiting"),
-                    exit(),
+                    print("exiting");
+                    exit();
                 }
                 else:{
-                    print("error command '" + x + "' unknown"),
-                    ipt(),
-                    cmdprc(),
+                    print("error command '" + x + "' unknown");
+                    ipt();
+                    cmdprc();
                 }
-                cmdprc()
+                cmdprc();
         </py-script>
     </body>
 </html>
